@@ -1,13 +1,13 @@
 # ComputerGraphics
 
 This repository contains all programs implemented as a part of computer graphics lab course.
-##Lab 1
+## Lab 1
 1) Find if given point is inside figure.
 2) Find if given point is inside line
 3) Find if given point inside triangle.
 4) Find minimum bounding rectangle of a given triangle.
 
-##Lab 2
+## Lab 2
 1) functions available in graphics.h, display the following
 a. Point
 b. Line
@@ -21,13 +21,13 @@ function for each graphics primitive) is required.
 2) Draw triangle inscribed in a circle.
 3) Draw a smiley:)
 
-##Lab 3
+## Lab 3
 Using OpenGL, draw the following figures. The dimensions of the various components in the figures
 can be considered as you wish, but the overall shape should be the same as the figures given here
 1. Draw House
 2. Draw Car
 
-##Lab 4
+## Lab 4
 Objective: Simulation of Printing with and without Error Diffusion
 Let P1 and P2 be two bi-level printers. Bi-level printers are the printers which will print only two
 shades(black and white) even when the input image is colour or gray scale image.
@@ -63,7 +63,7 @@ used
 In Floyd- Steinberg algorithm, You are expected to use three neighbours: for (x,y), consider (x+1,y),
 (x+1, y+1), (x,y+1) with weights 3/8, 2/8,3/8 respectively. And also consider top-left corner as origin.
 
-##Lab 5
+## Lab 5
 1. Given the end points (x1, y1) and (x2, y2) of a line segment, find slope m, and y-intercept b.
 Compute the value of y=mx+b for each integer value of x starting from x1 to x2 and plot
 (round(x), round(y)) with the step size 5. Repeat the plotting for step size 4, step size 3, step
@@ -74,20 +74,20 @@ b. When line segment is horizontal or vertical, check if your program works
 (round(x), round(y)) for theta varies from 0 to 2*PI, with various step sizes and observe the
 quality of the plot. Also check if circle is plotted when a=b.
 
-##Lab 6
+## Lab 6
 1. Implement DDA algorithm for drawing straight line and observe how the lines are drawn when
 the slope is close to 0, and also when close to infinity
 2. Implement Midpoint line drawing algorithm and display one line segment in each of the eight
 octants
 
-##Lab 7
+## Lab 7
 1. Given the centre (a, b) and radius r, display circle( in red colour) cantered at (a, b) and with
 radius r using midpoint circle drawing algorithm
 2. Given the centre (h, k), a half length of major axis ‘a’ and a half length of minor axis ‘b’ , display
 Ellipse(in Yellow colour) cantered at (h, k) and with major axis length 2a and minor axis length
 2b using midpoint ellipse drawing algorithm
 
-##Lab 8
+## Lab 8
 1. Implement Boundary Fill algorithm(with 4 neighbours) to display boundary of one rectangle and one triangle
 , given vertices, in red colour and then fill the rectangle with blue and triangle with yellow when the mouse 
 click is done inside the regions.
@@ -101,7 +101,7 @@ of it as boundary points, and then run the Boundary fill algorithm.
 algorithm to replace the red colour region to green colour when a
 mouse click is done at a point inside the rectangle.
 
-##Lab 9
+## Lab 9
 Implement Poly Fill algorithm in OpenGL to rasterise polygon region, and observe the effect
 of dropping horizontal edge, and also observe how vertical edges are displayed
 a. First implement the algorithm using the floating point operations inside any loop(ie
@@ -109,7 +109,7 @@ using x=x+1/m).
 b. Avoid floating point operation by replacing x=x+1/m with the function to compute
 next x for next scan line.
 
-##Lab 10
+## Lab 10
 Geometric transformations in computer graphics do not reduce the visual quality of
 images, whereas they reduce visual quality in imageprocessing as interpolation is involved.
 1. Using built-in functions in OpenGL , draw polygon with 5 vertices of your choice and then
@@ -122,7 +122,7 @@ c. Scale the polygon with the given scaling factor
 2) To understand the difference between clipping(in object space) and cropping(in image
 space)
 
-##Lab 11
+## Lab 11
 1. Given $n$ 2D points (xi, yi), for 1&lt;=i&lt;=n, and a clipping rectangle with diagonal
 vertices, (xmin, ymin) and (xmax, ymax), display(in red) the points that are inside the
 rectangle(2 Marks)
